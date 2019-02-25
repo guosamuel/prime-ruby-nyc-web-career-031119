@@ -7,6 +7,6 @@ def prime?(integer)
     return false
   end 
   
-  [2..integer-1].none? { |divisor| integer % divisor == 0}
+  [*2..integer-1].none? { |divisor| integer % divisor == 0}
   
 end
