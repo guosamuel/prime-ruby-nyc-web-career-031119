@@ -12,7 +12,7 @@ def prime?(integer)
     return true
   elsif integer.abs % 3 == 0
     return false
-  elsif integer.abs % 6 == 1 || integer.abs % 6 == 5
+  elsif integer.abs % 6 == 1
     return true
   end
 end
