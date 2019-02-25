@@ -7,7 +7,7 @@ def prime?(integer)
   end 
   
   prime_array = []
-  counter = 2
+  counter = 1
   
   until counter == 999999
     prime_array.each do |prime_number|
