@@ -19,4 +19,5 @@ def prime?(integer)
   
   prime_aray.each do |prime_number2|
     if integer == prime_number2
+      return true
 end
