@@ -13,6 +13,6 @@ def prime?(integer)
   elsif integer.abs % 3 == 0
     return false
   elsif integer.abs % 6 == 1 || integer.abs % 6 == 5
-    return true
+    return false
   end
 end
