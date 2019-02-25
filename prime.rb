@@ -4,5 +4,5 @@ def prime?(integer)
     return true
   elsif integer % 2 == 0
     return false
-  elsif 
+  end
 end
