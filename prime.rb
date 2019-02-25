@@ -14,8 +14,7 @@ def prime?(integer)
       if counter % prime_number == 0
         prime_array.push
         counter += 1
-        end
-    end
+      end
   
   prime_aray.each do |prime_number2|
     if integer == prime_number2
