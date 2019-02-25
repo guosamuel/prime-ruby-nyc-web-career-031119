@@ -1,5 +1,7 @@
 # Add  code here!
 def prime?(integer)
+  if integer < 0
+    integer = integer * -1
   if integer == 2
     return true
   elsif integer % 2 == 0
@@ -10,7 +12,5 @@ def prime?(integer)
     return false
   elsif integer % 6 == 1 || integer % 6 == 5
     return true
-  else
-    return false
   end
 end
