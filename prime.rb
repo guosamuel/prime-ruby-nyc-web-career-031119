@@ -1,7 +1,5 @@
 # Add  code here!
 def prime?(integer)
-  if integer < 0
-    integer = integer * -1
   if integer == 2
     return true
   elsif integer % 2 == 0
