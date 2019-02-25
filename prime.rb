@@ -2,6 +2,8 @@
 def prime?(integer)
   if integer < 0
     return false
+  elsif integer == 1
+    return false
   elsif integer.abs == 2
     return true
   elsif integer.abs % 2 == 0
