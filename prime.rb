@@ -7,7 +7,7 @@ def prime?(integer)
     return false
   end 
   
-  testing_array = Array.new()
+  testing_array = Array.new(integer)
   [2..n-1].none? { |divisor| integer % divisor == 0}
   
 end
