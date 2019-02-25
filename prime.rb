@@ -6,7 +6,7 @@ def prime?(integer)
     return false
   end 
   
-  prime_array = [2, 3, 5, 7, 11]
+  prime_array = []
   counter = 2
   
   until counter == 999999
