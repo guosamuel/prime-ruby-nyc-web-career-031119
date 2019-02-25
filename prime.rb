@@ -8,5 +8,6 @@ def prime?(integer)
     return true
   elsif integer % 3 == 0
     return false
+  elsif 
   end
 end
