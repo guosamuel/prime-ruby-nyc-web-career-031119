@@ -7,5 +7,6 @@ def prime?(integer)
     return false
   end 
   
+  [2...integer-1].none? 
   
 end
