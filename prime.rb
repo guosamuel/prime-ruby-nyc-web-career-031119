@@ -4,15 +4,7 @@ def prime?(integer)
     return false
   elsif integer == 1
     return false
-  elsif integer.abs == 2
-    return true
-  elsif integer.abs % 2 == 0
-    return false
-  elsif integer.abs == 3
-    return true
-  elsif integer.abs % 3 == 0
-    return false
-  elsif integer.abs % 6 == 1 || integer.abs % 6 == 5
-    return true
   end 
+  
+  prime_array = []
 end
