@@ -14,5 +14,5 @@ def prime?(integer)
     return false
   elsif integer.abs % 6 == 1 || integer.abs % 6 == 5
     return true
-  end
+  end 
 end
