@@ -11,8 +11,11 @@ def prime?(integer)
   
   until counter == 999999
     prime_array.each do |prime_number|
-      if counter % prime_number != 0
+      if counter % prime_number > 0
         prime_array.push
         counter += 1
+        end
     end
+  
+    
 end
