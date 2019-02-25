@@ -1,5 +1,6 @@
 # Add  code here!
 def prime?(integer)
+  
   if integer < 0
     return false
   elsif integer == 1
@@ -16,10 +17,12 @@ def prime?(integer)
         counter += 1
       end
     end
+  end
   
   prime_aray.each do |prime_number2|
     if integer == prime_number2
       return true
     end
   end
+  
 end
